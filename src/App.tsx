@@ -9,11 +9,13 @@ export const App: React.FC = () => {
     <Router>
       <div className="app">
         <Sidebar />
-        <Switch>
-          <Route path="/">
-            <h1>Hello, world!</h1>
-          </Route>
-        </Switch>
+        <div className="page">
+          <Switch>
+            <Route path="/">
+              <h1>Hello, world!</h1>
+            </Route>
+          </Switch>
+        </div>
       </div>
     </Router>
   );
