@@ -71,3 +71,14 @@ body,
     }
   }
 }
+
+.editor {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+
+  .status {
+    background: #1e1e1e;
+    padding: 0.5rem;
+  }
+}
