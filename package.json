@@ -15,7 +15,7 @@
     "@types/react-router-dom": "^5.1.5",
     "husky": "^4.2.5",
     "lint-staged": "^10.2.11",
-    "node-sass": "^4.13.1",
+    "node-sass": "4.x",
     "prettier": "^2.0.5",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
